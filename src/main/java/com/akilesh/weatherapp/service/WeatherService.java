@@ -13,6 +13,7 @@ public class WeatherService {
     @Value("${weather.api.key:demo_key}")
     private String apiKey;
 
+
     @Value("${weather.api.url:https://api.openweathermap.org/data/2.5/weather}")
     private String apiUrl;
 
